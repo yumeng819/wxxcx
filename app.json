@@ -1,0 +1,49 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/flowers/special/special",
+    "pages/flowers/community/community",
+    "pages/flowers/my/my",
+    "pages/flowers/wallpaper/wallpaper",
+    "pages/flowers/detail/detail",
+    "pages/flowers/order/order",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh": "true"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#aaa",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/flowers/special/special",
+        "text": "专题",
+        "iconPath": "imgs/main_bottom_menu_03.png",
+        "selectedIconPath": "imgs/main_bottom_menu_03_focus.png"
+      },
+      {
+        "pagePath": "pages/flowers/wallpaper/wallpaper",
+        "text": "壁纸",
+        "iconPath": "imgs/main_bottom_menu_05.png",
+        "selectedIconPath": "imgs/main_bottom_menu_05_focus.png"
+      },
+      {
+        "pagePath": "pages/flowers/community/community",
+        "iconPath": "imgs/main_bottom_menu_04.png",
+        "selectedIconPath": "imgs/main_bottom_menu_04_focus.png",
+        "text": "社区"
+      },
+      {
+        "pagePath": "pages/flowers/my/my",
+        "iconPath": "imgs/main_bottom_menu_01.png",
+        "selectedIconPath": "imgs/main_bottom_menu_01_focus.png",
+        "text": "我的"
+      }
+    ]
+  }
+}

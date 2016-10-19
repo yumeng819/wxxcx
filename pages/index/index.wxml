@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view class="container">
+<audio style="display:none" poster="{{poster}}" name="{{name}}" author="{{author}}" src="{{src}}" action="{{action}}" loop></audio>
+   <view  class="userinfo">
+        <image class="userinfo-avatar" src="/imgs/logo.png" background-size="cover"></image>
+        <text class="user-motto">{{motto}}</text>
+      </view>
+</view>

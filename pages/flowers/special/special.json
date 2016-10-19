@@ -1,0 +1,6 @@
+{
+  "navigationBarBackgroundColor": "#eee",
+  "navigationBarTitleText": "专题",
+  "navigationBarTextStyle": "black",
+  "enablePullDownRefresh": "true"
+}

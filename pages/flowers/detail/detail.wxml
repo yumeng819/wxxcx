@@ -1,0 +1,34 @@
+<view class="d-container">
+  <span class="tit">神秘箱|静谧微甜</span>
+  <b>花田小憩(X)▪2016-09-16 06:03</b>
+  <image class="m-pic" src="/imgs/pic6.jpg"  mode="aspectFit"></image>
+  <view class="boxborder">
+    <image src="/imgs/pic10.jpg"  mode="aspectFit"></image>
+    <text>睡莲的紫色静谧，雏菊的粉色甜美，玫瑰的醉人诱惑。手捧“静谧微甜”的你，我们只愿你岁月静好，浅笑安然。</text>
+  </view>
+  <view class="f-con">
+    <span>2016.07－第四周[文艺生活－神秘箱]</span>
+    <image src="/imgs/pic11.jpg"  mode="aspectFit"></image>
+    <b>[俯视]</b>
+    <image src="/imgs/pic12.jpg"  mode="aspectFit"></image>
+    <b>[侧面]</b>
+  </view>
+  <view class="main-content">
+    <b>－本周花材 • 文艺生活－</b>
+    <i>睡莲：洁净，纯真，妖艳的另一面</i>
+    <i>雏菊：纯洁，天真，深藏在心底的爱</i>
+    <i>玫瑰：初恋，暧昧之恋，特别的关怀</i>
+    <image src="/imgs/pic7.jpg"  mode="aspectFit"></image>
+    <text>将绽放的睡莲放入玻璃花瓶中，紫色和黄色强烈的色彩互补，明艳了整片眼界。少女心的颜色，怎能少的了俏皮娇嫩的粉色小雏菊，还有女人味十足的玫瑰来加入呢？</text>
+    <image src="/imgs/pic8.jpg"  mode="aspectFit"></image>
+    <b>★本周主花材－睡莲★</b>
+    <i>紫色的睡莲，优雅静谧，但常常含苞总不开放。今天告诉大家一个小窍门，睡莲可以通过你的助力帮它绽放的哦。</i>
+    <image src="/imgs/pic9.jpg"  mode="aspectFit"></image>
+    <b>－小技巧－</b>
+    <i>1. 去掉最外面的硬挺的绿色花瓣。</i>
+    <i>2. 从花心的部分将紫色花瓣拨开。</i>
+    <i>3. 轻轻向下压花瓣让花瓣达到绽放的状态</i>
+    <i>4. 注意拨开花瓣的力度，尽量不要折断。</i>
+    <image src="/imgs/pic13.jpg" mode="aspectFit"></image>
+  </view>
+</view>

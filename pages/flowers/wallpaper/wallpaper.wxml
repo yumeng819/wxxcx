@@ -1,0 +1,20 @@
+<view class="wallpaper-container">
+  <scroll-view scroll-y="true" bindscrolltoupper="actionToupper" bindscrolltolower="actionTolower" upper-threshold="0" lower-threshold="0" scroll-top="{{scrollTop}}">
+    <view hidden="{{refreshHidden}}">
+      <button plain="true" loading="true">努力刷新中...</button>
+    </view>
+    <view class="headerimg">
+      <image src="/imgs/bhead.jpg" mode="aspectFill"></image>
+    </view>
+    <view class="imgbox">
+      <ul wx:for="{{wlist}}" class="w-list">
+        <li wx:for="{{list[index]}}" wx:for-item="item">
+        <image src="{{item.img}}" mode="aspectFill"></image>
+        </li>
+      </ul>
+    </view>
+    <view hidden="{{loadmoreHidden}}">
+      <button plain="true" loading="true">努力加载中...</button>
+    </view>
+  </scroll-view>
+</view>

@@ -1,0 +1,20 @@
+<view class="special-container">
+    <view class="list-loading">
+      <loading hidden="{{loadingHidden}}">努力加载中...</loading>
+    </view>
+     <scroll-view wx:if="{{loadingHidden}}" scroll-y="true" bindscrolltoupper="actionToupper" bindscrolltolower="actionTolower" upper-threshold="0" lower-threshold="0" scroll-top="{{scrollTop}}">
+        <view hidden="{{refreshHidden}}">
+          <button plain="true" loading="true">努力刷新中...</button>
+        </view>
+        <ul class="s-list">
+            <li wx:for="{{list}}" wx:for-item="item">
+            <image src="{{item.img}}" mode="aspectFill"></image>
+            <b>{{item.title}}</b>
+            <i>{{item.tit}}</i>
+            </li>
+        </ul>
+        <view hidden="{{loadmoreHidden}}">
+          <button plain="true" loading="true">努力加载中...</button>
+        </view>
+      </scroll-view>
+</view>

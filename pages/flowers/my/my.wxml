@@ -1,0 +1,39 @@
+<view class="my-container">
+  <view  class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    <p class="userinfo-txt"><b>0</b> 发布 / <b>1</b> 订阅 / <b>0</b> 订阅的</p>
+  </view>
+  <view class="userlist">
+    <ul>
+      <li>
+      <image src="/imgs/personal_publish.png"></image>
+        <span>我的发布</span>
+      </li>
+      <li>
+      <image src="/imgs/message.png"></image>
+        <span>我的消息</span>
+      </li>
+    </ul>
+  </view>
+  <view class="userlist">
+    <ul>
+      <li>
+        <image src="/imgs/indent.png"></image>
+        <span>我的订单</span>
+      </li>
+      <li>
+      <image src="/imgs/shopping.png"></image>
+        <span>购物车</span>
+      </li>
+       <li>
+       <image src="/imgs/integral.png"></image>
+        <span>我的积分</span>
+      </li>
+      <li bindtap="bindViewTap">
+      <image src="/imgs/other.png"></image>
+        <span>其他</span>
+      </li>
+    </ul>
+  </view>
+</view>

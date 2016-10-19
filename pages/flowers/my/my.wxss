@@ -1,0 +1,63 @@
+.my-container{
+    border-top: solid 1px #aaa; 
+    background: #eee;
+}
+
+.userinfo {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.userinfo-avatar {
+    width: 160rpx;
+    height: 160rpx;
+    margin: 60rpx;
+    border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #000;
+  font-size: 12px;
+  font-weight: 900;
+}
+.userinfo-txt{
+    color: #333;
+    font-size: 6px;
+    margin: 50px 0 20px 0;
+}
+.userinfo-txt b{
+    font-weight: 900;
+}
+
+.userlist {
+    margin-top: 5px;
+    background: #fff;
+}
+.userlist ul{
+     display: flex;
+    flex-wrap: wrap;
+}
+.userlist ul li{
+    box-sizing: border-box;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    display: flex;
+}
+.userlist ul li image{
+    box-sizing: border-box;
+    height: 20px;
+    width:20px;
+    display: inline-block;
+    margin: 10px 16px;
+}
+.userlist ul li span{
+    font-size: 12px;
+    color:#666;
+    flex: 8;
+   border-bottom:1px #eee solid;
+   background: url("/imgs/black_next.png") no-repeat 90% center;
+   background-size: 6px;
+}

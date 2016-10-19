@@ -1,0 +1,85 @@
+.community-container{
+     border-top: solid 1px #aaa; 
+    background: #eee;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+     display: flex;
+  flex-direction: column;
+}
+.community-container .banner{
+    height: 200px;
+}
+.txt{
+    line-height: 34px;
+    padding-left:20px; 
+    font-size: 14px;
+}
+.imgbox{
+    width: 100%;
+}
+.c-list{
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    background: #fff;
+    width: 100%;
+    background: #eee;
+}
+.c-list navigator {
+  box-sizing: border-box;
+  width: 50%;
+}
+
+.c-list li image{
+    box-sizing: border-box;
+    width: 100%;
+    height: 160px;
+    float: left;
+}
+.bt{
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    top: 90%;
+    right: 6%;
+    background: url(/imgs/publish_btn.png);
+}
+.community-container scroll-view {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.community-container scroll-view button {
+  font-size: 14px;
+  border: 0;
+}
+
+.main-nav ul {
+  height: 35px;
+  display: flex;
+  margin: 0 27%;
+}
+
+.main-nav ul li {
+  margin: 0 10px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.main-nav ul li.active {
+  border-bottom: solid 2px #666;
+}
+.main-list {
+  flex: 1;
+  overflow: hidden;
+}
+.main-list scroll-view {
+  height: 100%;
+}
+.community-container video{
+    width: 100%;
+}

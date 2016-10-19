@@ -1,0 +1,55 @@
+.wallpaper-container{
+    background: #eee;
+    border-top: solid 1px #aaa; 
+    padding: 0 5px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+.headerimg{
+    width: 100%;
+    display: flex;
+    background: #fff;
+    margin-top: 5px;
+}
+.headerimg image{
+    width: 100%;
+    height: 130px;
+    padding: 15px 0;
+    box-sizing: border-box;
+    float: left;
+}
+.imgbox{
+    width: 100%;
+}
+.w-list{
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    background: #fff;
+    border: 1px solid #bbb;
+    width: 100%;
+    margin-top: 5px;
+    padding: 5px;
+}
+.w-list li{
+    box-sizing: border-box;
+    width: 50%;
+    height: 50%;
+    padding: 3px;
+}
+.w-list li image{
+    box-sizing: border-box;
+    width: 100%;
+    height: 180px;
+    float: left;
+}
+.wallpaper-container scroll-view {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.wallpaper-container scroll-view button {
+  font-size: 14px;
+  border: 0;
+}
